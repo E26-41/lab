@@ -1,5 +1,6 @@
 import math as m
 
+
 def check_point(r, x, y):
     """
     Для начала находим гипотенузу нашей точки, а дальше находим стороны нашего радиуса
@@ -15,8 +16,8 @@ def check_point(r, x, y):
     else:
         print('Вы попали')
 
-print('Все вводимые числа целые')
-r = int(input('Введите радиус окружности: '))
-x = int(input('Введите x: '))
-y = int(input('Введите y: '))
+
+r = float(input('Введите радиус окружности: '))
+x = float(input('Введите x: '))
+y = float(input('Введите y: '))
 check_point(r, x, y)
